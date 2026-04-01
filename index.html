@@ -3,54 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Planner</title>
+    <title>My Aesthetic Planner</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>My Weekly Routine ✨</h1>
+    <nav class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Home ✨</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="orari.html">Orari</a>
+                <a href="materie.html">Materie</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Vibe Planner</h1>
+        <p>Benvenuta nel tuo spazio digitale. Qui puoi organizzare la tua routine e le tue materie scolastiche con stile.</p>
     </header>
 
-    <main>
-        <section class="planner-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Orario</th>
-                        <th>Lunedì</th>
-                        <th>Martedì</th>
-                        <th>Mercoledì</th>
-                        <th>Giovedì</th>
-                        <th>Venerdì</th>
-                        <th>Sabato</th>
-                        <th>Domenica</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="ora">08:00</td>
-                        <td contenteditable="true">Skincare & Colazione</td> <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                    </tr>
-                    <tr>
-                        <td class="ora">16:00</td>
-                        <td contenteditable="true">Studio</td>
-                        <td contenteditable="true">Palestra</td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                        <td contenteditable="true"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-
-    </body>
+</body>
 </html>
