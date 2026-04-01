@@ -8,12 +8,12 @@
 body {
     font-family: 'Poppins', sans-serif; /* Un font pulito ed elegante */
     background-color: #faf3f0; /* Un beige molto chiaro e "aesthetic" */
-    color: #5d5b59;
+    color: #FD7979;
 }
 
 /* 2. Stile della Navbar */
 .navbar {
-    padding: 20px;
+    padding: 30px;
     position: absolute; /* La blocca in alto a sinistra */
     top: 0;
     left: 0;
@@ -21,10 +21,10 @@ body {
 
 /* 3. Il tasto del Menu */
 .dropbtn {
-    background-color: #d4a373; /* Colore pastello caldo */
+    background-color: #FD7979; /* Colore pastello caldo */
     color: white;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 24px 48px;
+    font-size: 20px;
     border: none;
     border-radius: 50px; /* Bordi molto arrotondati */
     cursor: pointer;
@@ -54,7 +54,7 @@ body {
 
 /* Stile dei link dentro il menu */
 .dropdown-content a {
-    color: #5d5b59;
+    color: #FDACAC;
     padding: 12px 16px;
     text-decoration: none; /* Toglie la sottolineatura blu dei link */
     display: block;
