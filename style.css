@@ -1,6 +1,47 @@
+/* Scegli un colore di sfondo per tutta la pagina */
 body {
-    background-color: #f0f0f0;
-    font-family: sans-serif;
-    color: #333;
-    padding: 20px;
+    background-color: #fff0f5; /* Un rosa chiarissimo, cambialo con quello che vuoi! */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Stile per il titolo */
+h1 {
+    color: #d87093;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Rendi la tabella carina */
+table {
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden; /* Taglia gli angoli della tabella per farli tondi */
+}
+
+th {
+    background-color: #d87093; /* Colore dell'intestazione */
+    color: white;
+    padding: 15px;
+}
+
+td {
+    border: 1px solid #eee;
+    padding: 15px;
+    min-width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+/* Colonna degli orari più scura */
+.ora {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #555;
 }
