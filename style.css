@@ -1,47 +1,89 @@
+/* 1. Reset e Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #FFF7CD; /* il colore dello sfondo */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Un font pulito ed elegante */
+    background-color: #faf3f0; /* Un beige molto chiaro e "aesthetic" */
+    color: #5d5b59;
+}
+
+/* 2. Stile della Navbar */
+.navbar {
+    padding: 20px;
+    position: absolute; /* La blocca in alto a sinistra */
+    top: 0;
+    left: 0;
+}
+
+/* 3. Il tasto del Menu */
+.dropbtn {
+    background-color: #d4a373; /* Colore pastello caldo */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px; /* Bordi molto arrotondati */
+    cursor: pointer;
+    transition: 0.3s; /* Rende il cambio colore fluido */
+}
+
+.dropbtn:hover {
+    background-color: #bc8a5f; /* Si scurisce quando ci passi sopra */
+}
+
+/* 4. Il Menu a Cascata (Nascosto di base) */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none; /* Nasconde la lista */
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 5px;
+    z-index: 1; /* Fa sì che il menu stia sopra agli altri elementi */
+}
+
+/* Stile dei link dentro il menu */
+.dropdown-content a {
+    color: #5d5b59;
+    padding: 12px 16px;
+    text-decoration: none; /* Toglie la sottolineatura blu dei link */
+    display: block;
+    transition: 0.2s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* IL TRUCCO: Mostra il menu quando passi il mouse sopra al contenitore */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 5. Stile della Home (Hero Section) */
+.hero {
+    height: 100vh; /* Occupa tutta l'altezza dello schermo */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 40px;
-}
-
-/* Stile per il titolo */
-h1 {
-    color: #F57799; /* il colore del titolo */
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-/* Rendi la tabella carina */
-table {
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    border-radius: 15px;
-    overflow: hidden; /* Taglia gli angoli della tabella per farli tondi */
-}
-
-th {
-    background-color: #d87093; /* Colore dell'intestazione */
-    color: white;
-    padding: 15px;
-}
-
-td {
-    border: 1px solid #eee;
-    padding: 15px;
-    min-width: 100px;
-    height: 50px;
     text-align: center;
+    padding: 20px;
 }
 
-/* Colonna degli orari più scura */
-.ora {
-    background-color: #f9f9f9;
-    font-weight: bold;
-    color: #555;
+.hero h1 {
+    font-size: 4rem; /* Titolo molto grande */
+    color: #d4a373;
+    margin-bottom: 10px;
 }
