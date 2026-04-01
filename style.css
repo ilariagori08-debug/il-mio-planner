@@ -85,5 +85,26 @@ body {
 .hero h1 {
     font-size: 7rem; /* Titolo molto grande */
     color: #FD7979;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
+}
+.hero-img {
+    /* GRANDEZZA */
+    width: 100px; /* Imposta la larghezza fissa */
+    height: auto;  /* L'altezza si adatta da sola per non schiacciare la foto */
+
+    /* 2. ROTAZIONE */
+    transform: rotate(-5deg); /* Ruota la foto di 5 gradi verso sinistra */
+
+    /* 3. POSIZIONE (Margini) */
+    margin-top: 200px;       /* Spazio sopra la foto */
+    margin-bottom: 50px;    /* Spazio tra foto e titolo */
+    
+    /* 4. ESTETICA EXTRA (Facoltativo ma consigliato) */
+    border: 8px solid white; /* Crea un bordo tipo "Polaroid" */
+    transition: transform 0.3s ease; /* Serve per l'effetto al passaggio del mouse */
+}
+
+/* EFFETTO WOW: Quando ci passi sopra con il mouse */
+.hero-img:hover {
+    transform: rotate(0deg) scale(1.1); /* Torna dritta e si ingrandisce un po' */
 }
