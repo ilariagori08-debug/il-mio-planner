@@ -32,7 +32,7 @@ body {
 }
 
 .dropbtn:hover {
-    background-color: #bc8a5f; /* Si scurisce quando ci passi sopra */
+    background-color: #D25353; /* Si scurisce quando ci passi sopra */
 }
 
 /* 4. Il Menu a Cascata (Nascosto di base) */
@@ -83,7 +83,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 4rem; /* Titolo molto grande */
+    font-size: 7rem; /* Titolo molto grande */
     color: #FD7979;
     margin-bottom: 10px;
 }
