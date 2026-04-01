@@ -1,6 +1,6 @@
-/* Scegli un colore di sfondo per tutta la pagina */
+
 body {
-    background-color: #fff0f5; /* Un rosa chiarissimo, cambialo con quello che vuoi! */
+    background-color: #FFF7CD; /* il colore dello sfondo */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
 
 /* Stile per il titolo */
 h1 {
-    color: #d87093;
+    color: #F57799; /* il colore del titolo */
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
